@@ -6,6 +6,7 @@ import java.math.*;
 public class Colloquium
 {
 	public static void start()
+<<<<<<< HEAD
 	{	
 		//Тестируте!)
 		//BigN a = new BigN("6194856");
@@ -13,6 +14,17 @@ public class Colloquium
 		
 		//BigQ b = new BigQ(null, null, null);
 		//System.out.println("123");
+=======
+	{
+		BigN a = new BigN("2");
+		System.out.println(a);
+		int i = 0;
+		while(i < 20)
+		{
+			i++;
+			System.out.println(a.decrement());
+		}
+>>>>>>> 746a09d0d5175435ebb1dba6dda7e4a490a7311c
 	}
 }
 
