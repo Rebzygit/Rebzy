@@ -6,10 +6,13 @@ import java.math.*;
 public class Colloquium
 {
 	public static void start()
-	{
+	{	
 		//Тестируте!)
-		BigN a = new BigN("6194856");
-		System.out.println( a.multiply( new BigN("561392463") ).add( new BigN("5051") ) ); // 3477745467775379
+		//BigN a = new BigN("6194856");
+		//System.out.println( a.multiply( new BigN("561392463") ).add( new BigN("5051") ) ); // 3477745467775379
+		
+		//BigQ b = new BigQ(null, null, null);
+		//System.out.println("123");
 	}
 }
 

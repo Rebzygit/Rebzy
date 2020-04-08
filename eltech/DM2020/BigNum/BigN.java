@@ -55,6 +55,7 @@ public class BigN
 	* @version 1
 	* @author Сычев Александр
 	*/
+	
 	public BigN add(BigN other)
 	{
 		BigN buffBigN = new BigN();
@@ -91,6 +92,7 @@ public class BigN
     *  @version 0.1
     *  @author Яловега Никита
     */
+	
     public BigN subtract(BigN other)
     {
         int base = 1000;
@@ -127,6 +129,7 @@ public class BigN
 	* @version 1
 	* @author Сычев Александр
 	*/
+	
 	@Override
 	public String toString()
 	{
@@ -151,6 +154,7 @@ public class BigN
      * @version 0.3333
      * @author Яловега Никита
      */
+	 
      public BigN multiply(BigN other)
      {
          int base = 1000;
@@ -182,6 +186,7 @@ public class BigN
     * @version 1
     * @author Яловега Никита
     */
+	
     public int compareTo(BigN other)
     {
         int i;
@@ -199,7 +204,6 @@ public class BigN
         return 0;
     }
 
-
     /**
     * @param BigN other
     * @return boolean - true если this больше other, иначе false
@@ -207,6 +211,7 @@ public class BigN
     * @version 1
     * @author Яловега Никита
     */
+	
     private boolean isMoreThan(BigN other) {
         return this.compareTo(other) > 0;
     }
@@ -218,6 +223,7 @@ public class BigN
     * @version 1
     * @author Яловега Никита
     */
+	
     private boolean isLessThan(BigN other) {
         return this.compareTo(other) < 0;
     }
@@ -229,6 +235,7 @@ public class BigN
     * @version 1
     * @author Яловега Никита
     */
+	
     private boolean isMoreOrEquals(BigN other) {
         return this.compareTo(other) >= 0;
     }
@@ -243,7 +250,6 @@ public class BigN
     private boolean isLessOrEquals(BigN other) {
         return this.compareTo(other) <= 0;
     }
-
     /**
     * @param BigN other
     * @return boolean - true если this равен other, иначе false
@@ -251,10 +257,10 @@ public class BigN
     * @version 1
     * @author Яловега Никита
     */
+	/*
     private boolean isEquals(BigN other) {
         return this.compareTo(other) == 0;
     }
-
 
     /**
     * Проверка большого числа на 0.
